@@ -1,0 +1,109 @@
+== Agents ==
+TVPlotter
+EchoAgent
+Cyberpunk
+ArcadeFox
+
+== Runs ==
+{
+  "agent": "ArcadeFox",
+  "kind": "game",
+  "goal": "design a boss fight loop",
+  "steps": [
+    "[game] analyze goal: design a boss fight loop",
+    "enumerate mechanics, loops, and difficulty curve",
+    "collect local data (stub; offline)",
+    "generate structured summary"
+  ],
+  "result": "[demo] game agent processed goal",
+  "ts": 1761056944
+}
+{
+  "agent": "TVPlotter",
+  "kind": "tv",
+  "goal": "season 1 outline: 8 episodes",
+  "steps": [
+    "[tv] analyze goal: season 1 outline: 8 episodes",
+    "enumerate characters, arcs, episodes, motifs",
+    "collect local data (stub; offline)",
+    "generate structured summary"
+  ],
+  "result": "[demo] tv agent processed goal"
+}
+{
+  "agent": "Cyberpunk",
+  "kind": "game",
+  "goal": "world-building: mission beats",
+  "steps": [
+    "[game] analyze goal: world-building: mission beats",
+    "enumerate mechanics, loops, and difficulty curve",
+    "collect local data (stub; offline)",
+    "generate structured summary"
+  ],
+  "result": "[demo] game agent processed goal",
+  "ts": 1761056944
+}
+
+== Exports ==
+/home/jayden/Downloads/ghostforge/runs/ArcadeFox_1761056944.md
+/home/jayden/Downloads/ghostforge/runs/TVPlotter_0.md
+/home/jayden/Downloads/ghostforge/runs/Cyberpunk_1761056944.md
+
+== History (last 3) ==
+[
+  {
+    "goal": "boss fight brief",
+    "steps": [
+      "[game] analyze goal: boss fight brief",
+      "enumerate mechanics, loops, and difficulty curve",
+      "collect local data (stub; offline)"
+    ],
+    "ts": 1761039073
+  },
+  {
+    "goal": "design a boss fight loop",
+    "steps": [
+      "[game] analyze goal: design a boss fight loop",
+      "enumerate mechanics, loops, and difficulty curve",
+      "collect local data (stub; offline)"
+    ],
+    "ts": 1761056944
+  },
+  {
+    "goal": "boss fight brief",
+    "steps": [
+      "[game] analyze goal: boss fight brief",
+      "enumerate mechanics, loops, and difficulty curve",
+      "collect local data (stub; offline)"
+    ],
+    "ts": 1761056944
+  }
+]
+[]
+
+== Pack all agents ==
+/home/jayden/Downloads/ghostforge/dist/TVPlotter_v0.1.zip
+/home/jayden/Downloads/ghostforge/dist/EchoAgent_v0.1.zip
+/home/jayden/Downloads/ghostforge/dist/Cyberpunk_v0.1.zip
+/home/jayden/Downloads/ghostforge/dist/ArcadeFox_v0.1.zip
+
+Packed 4 agent(s) to /home/jayden/Downloads/ghostforge/dist
+
+== Artifacts ==
+-- dist/
+total 16
+-rw-rw-r-- 1 jayden jayden 1302 Oct 21 10:29 ArcadeFox_v0.1.zip
+-rw-rw-r-- 1 jayden jayden 1302 Oct 21 10:29 Cyberpunk_v0.1.zip
+-rw-rw-r-- 1 jayden jayden 1300 Oct 21 10:29 EchoAgent_v0.1.zip
+-rw-rw-r-- 1 jayden jayden 1035 Oct 21 10:29 TVPlotter_v0.1.zip
+
+-- runs/
+total 32
+-rw-rw-r-- 1 jayden jayden 286 Oct 21 10:29 Cyberpunk_1761056944.md
+-rw-rw-r-- 1 jayden jayden 274 Oct 21 10:29 TVPlotter_0.md
+-rw-rw-r-- 1 jayden jayden 268 Oct 21 10:29 ArcadeFox_1761056944.md
+-rw-rw-r-- 1 jayden jayden 286 Oct 21 05:31 Cyberpunk_1761039073.md
+-rw-rw-r-- 1 jayden jayden 268 Oct 21 05:31 ArcadeFox_1761039073.md
+-rw-rw-r-- 1 jayden jayden 268 Oct 20 16:17 ArcadeFox_1760991469.md
+-rw-rw-r-- 1 jayden jayden 280 Oct 20 15:41 ArcadeFox_1760989295.md
+-rw-rw-r-- 1 jayden jayden 280 Oct 18 18:31 ArcadeFox_1760826681.md

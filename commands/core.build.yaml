@@ -1,0 +1,6 @@
+
+name: core.build
+capability: BUILD
+version: "1.0"
+steps:
+  - run: "python forge.py test"

@@ -1,0 +1,58 @@
+{
+  "history": [
+    {
+      "goal": "act 1 mission beats",
+      "steps": [
+        "[game] analyze goal: act 1 mission beats",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1760825689
+    },
+    {
+      "goal": "world-building: mission beats",
+      "steps": [
+        "[game] analyze goal: world-building: mission beats",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1761039073
+    },
+    {
+      "goal": "factions + city districts",
+      "steps": [
+        "[game] analyze goal: factions + city districts",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1761039073
+    },
+    {
+      "goal": "world-building: mission beats",
+      "steps": [
+        "[game] analyze goal: world-building: mission beats",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1761056944
+    },
+    {
+      "goal": "factions + city districts",
+      "steps": [
+        "[game] analyze goal: factions + city districts",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1761056944
+    },
+    {
+      "goal": "demo goal",
+      "steps": [
+        "[game] analyze goal: demo goal",
+        "enumerate mechanics, loops, and difficulty curve",
+        "collect local data (stub; offline)"
+      ],
+      "ts": 1761077497
+    }
+  ]
+}

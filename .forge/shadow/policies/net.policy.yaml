@@ -1,0 +1,6 @@
+
+# policies/net.policy.yaml
+default: deny
+allow:
+  - "localhost"
+  - "127.0.0.1"

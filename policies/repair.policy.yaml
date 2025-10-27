@@ -1,0 +1,23 @@
+# policies/repair.policy.yaml
+scope:
+  allow_paths:
+    - core/*.py
+  deny_paths:
+    - modules/**
+    - commands/**
+    - policies/**
+
+rules:
+  - id: no-network-codegen
+    pattern: (?:requests|httpx|socket)
+  - id: no-eval
+    pattern: eval\(
+  - id: no-exec
+    pattern: exec\(
+
+# Escalation (flat keys for the simple parser)
+escalation.require: human-ack.txt
+escalation.trigger_strategies: refactor,regen
+# if change % > this, require the ack file
+escalation.max_budget_pct_without_ack: 5
+

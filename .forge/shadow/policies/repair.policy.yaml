@@ -1,0 +1,16 @@
+
+# policies/repair.policy.yaml
+scope:
+  allow_paths:
+    - "core/*.py"
+  deny_paths:
+    - "modules/**"
+    - "commands/**"
+    - "policies/**"
+rules:
+  - id: no-network-codegen
+    pattern: "(requests|httpx|socket)"
+  - id: no-exec-during-repair
+    pattern: "(eval\\(|exec\\()"
+escalation:
+  require: "human-ack.txt"

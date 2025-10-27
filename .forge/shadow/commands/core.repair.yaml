@@ -1,0 +1,12 @@
+
+name: core.repair
+capability: REPAIR
+version: "1.0"
+guards.change_budget_pct: 5
+guards.require_green_tests: true
+guards.policy: repair.policy.yaml
+steps:
+  - run: "python -m core.warden plan --target=core --strategy=lint"
+  - run: "python -m modules.rewriter apply --plan=.forge/plan.json"
+  - run: "python -m core.snapshot create --label=auto-repair"
+  - run: "python -m modules.tester run --suite=golden"

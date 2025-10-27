@@ -1,0 +1,8 @@
+name: ArcadeFox
+kind: game
+version: "0.1.0"
+capabilities:
+  - plan
+  - run
+defaults:
+  prompt_style: concise
